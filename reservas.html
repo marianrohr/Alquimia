@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css"/>
+    <!-- Aca tiene que ir el favicon-->
+    <link rel="shortcut icon" href="./img/Free_Sample_By_Wix.jpeg"/>
+    <title>Reservas</title>
+</head>
+<body>
+    <!-- fila de logo + nav --> 
+	<header>
+		<h1 align="center">Alquimia - Reservas</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+                <li><a href="galeria.html" target="_blank">Galeria</a></li>
+                <li><a href="carta.html"target="_blank">Carta</a></li>
+                <Li><a href="reservas.html">Reservas</a></Li>
+                <Li><a href="rrhh.html">Recursos Humanos</a></Li>
+                				
+			</ul>
+		</nav>
+	</header>
+    <!-- aca tengo que insertar lo de reservas-->
+    <section>
+        <div>
+            <h2 align="center">Bienvenido</h2>
+        </div>
+        <center>
+        <form action="gracias.html" method="post" enctype="application/x-www-form-urlencoded">
+            <div>
+            <label name="Seleccione Fecha"><b>Seleccione Fecha:</b></label>
+            <input type="date" name="Seleccione Fecha"/>
+            <label for="Comensales"><b>Comensales:</b></label>
+            <input type="text" name="Comensales" placeholder="Ingrese un numero" id="Comensales"/>
+            <label for="Rango Horario"><b>Rango Horario:</b> </label>
+            <select name="Rango Horario">
+                <option value="12 a 14"> 12 a 14</option>
+                <option value="14 a 16"> 14 a 16</option>
+                <option value="19 a 22.30"> 19 a 22.30</option>
+                <option value="22.30 a 2"> 22.30 a 2</option>
+            </select>
+        </div>
+    </center>
+        <div>
+            <Label for="Comentarios">
+                <b>Comentarios:</b>
+            </Label>
+         
+            <textarea name="Comentarios" id="Comenarios" rows="10" maxlength="500" cols="90"></textarea>
+        </div>
+    <div>
+         <input type="reset" value="Limpiar Formulario" />
+       
+         <!-- No puedo hacer que el boton enviar me redirija al archivo gracias.html-->
+         <a href="gracias.html" target="_self">
+         <input type="submit" value="Enviar" >
+        </a>
+    </div>
+        </form> 
+  
+    </section>
+  <!-- Aca comienza mi footer--> 
+ 
+    <footer>
+        <div>
+            <center>
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/" target="_blank">Intagram</a>
+        <a href="https://www.tripadvisor.com/" target="_blank">Tripadvisor</a>
+        <p>Todos los derechos reservados</p>
+    </center>
+    </div>
+    </footer>
+    
+</body>
+</html>
